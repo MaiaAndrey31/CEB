@@ -1,0 +1,36 @@
+{
+  "name": "ceb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.5",
+    "@mui/material": "^6.4.5",
+    "antd": "^5.24.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import-helpers": "^2.0.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "vite": "^6.0.5"
+  }
+}
