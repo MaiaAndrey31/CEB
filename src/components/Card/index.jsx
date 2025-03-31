@@ -5,7 +5,7 @@ import { theme } from '../../styles/theme';
 
 
 const App = ({titles, content}) => (
-  <Card
+  <Card 
     title={titles}
     variant="borderless"
     
@@ -18,6 +18,8 @@ const App = ({titles, content}) => (
       display: 'flex',
       flexDirection: 'column',
       minHeight: 400,
+
+     
       
     }}
   >

@@ -16,6 +16,13 @@ h1 {
     padding: 1.8rem;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+     h1 {
+        font-size: 2rem;
+        padding: 0.8rem;
+     }
+    }
+
 
 `
 
@@ -24,7 +31,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 1rem;
-
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+     flex-direction: column;
+    }
 `
 
 export const ContainerRight = styled.div`
@@ -42,7 +56,13 @@ p {
     font-weight: 500;
     font-size: 1rem;
 }
-
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+      width: 100%;
+  }
 `
 
 export const ContainerLeft = styled.div`
@@ -58,5 +78,9 @@ img {
     border-radius: 10%;
     padding: 1rem;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+      width: 100%;
+    }
 
 `

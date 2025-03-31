@@ -51,9 +51,10 @@ export default function VerticalTabs() {
         flexGrow: 1,
         bgcolor: '#333333',
         display: 'flex',
-        height: 420,
+        height: 'auto',
         minWidth: '90vw',
-        alignItems: 'center'
+        alignItems: 'center',
+       
       }}
     >
       <Tabs
@@ -62,73 +63,80 @@ export default function VerticalTabs() {
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: 'divider' }}
+        sx={{ borderRight: 1, borderColor: 'divider', width: '100%' }}
       >
-        <Tab
-          label="CÍRCULO MESSIAS"
+        <Tab className='tab2'
+          label="MESSIAS"
           {...a11yProps(0)}
           style={{
             fontFamily: 'Sports-World',
             color: '#F7DE58',
-            fontSize: 17
+            fontSize: 12,
+           
           }}
         />
-        <Tab
-          label="CÍRCULO BUNYAN"
+        <Tab className='tab2'
+          label="BUNYAN"
           {...a11yProps(1)}
           style={{
             fontFamily: 'Sports-World',
             color: '#F7DE58',
-            fontSize: 17
+            fontSize: 12,
+           
           }}
         />
-        <Tab
-          label="CÍRCULO JONATHAN"
+        <Tab className='tab2'
+          label="JONATHAN"
           {...a11yProps(2)}
           style={{
             fontFamily: 'Sports-World',
             color: '#F7DE58',
-            fontSize: 17
+            fontSize: 12,
+           
           }}
         />
-        <Tab
-          label="CÍRCULO SARAH"
+        <Tab className='tab2'
+          label="SARAH"
           {...a11yProps(3)}
           style={{
             fontFamily: 'Sports-World',
             color: '#F7DE58',
-            fontSize: 17
+            fontSize: 12,
+           
           }}
         />
-        <Tab
-          label="CÍRCULO HABLEMOS"
+        <Tab className='tab2'
+          label="HABLEMOS"
           {...a11yProps(4)}
           style={{
             fontFamily: 'Sports-World',
             color: '#F7DE58',
-            fontSize: 17
+            fontSize: 12,
+           
           }}
         />
-        <Tab
-          label="CÍRCULO BERÉIA"
+        <Tab className='tab2'
+          label="BERÉIA"
           {...a11yProps(5)}
           style={{
             fontFamily: 'Sports-World',
             color: '#F7DE58',
-            fontSize: 17
+            fontSize: 12,
+           
           }}
         />
-        <Tab
-          label="CÍRCULO SAPIENCIAL"
+        <Tab className='tab2'
+          label="SAPIENCIAL"
           {...a11yProps(6)}
           style={{
             fontFamily: 'Sports-World',
             color: '#F7DE58',
-            fontSize: 15
+            fontSize: 12,
+           
           }}
         />
       </Tabs>
-      <TabPanel
+      <TabPanel className='panel2'
         value={value}
         index={0}
         style={{
@@ -149,7 +157,7 @@ export default function VerticalTabs() {
         adaptada a cada faixa etária, facilita a compreensão e promove a
         aplicação prática dos ensinamentos bíblicos.
       </TabPanel>
-      <TabPanel
+      <TabPanel className='panel2'
         value={value}
         index={1}
         style={{
@@ -170,7 +178,7 @@ export default function VerticalTabs() {
         narração e discussão. A interação com obras de alta qualidade estimula o
         vocabulário, a interpretação e o pensamento crítico.
       </TabPanel>
-      <TabPanel
+      <TabPanel className='panel2'
         value={value}
         index={2}
         style={{
@@ -199,7 +207,7 @@ export default function VerticalTabs() {
         consistente de ensino, amor e exemplos práticos, os meninos poderão
         construir uma identidade enraizada em quem Deus os criou para ser.
       </TabPanel>
-      <TabPanel
+      <TabPanel className='panel2'
         value={value}
         index={3}
         style={{
@@ -227,7 +235,7 @@ export default function VerticalTabs() {
         importância da beleza interior O nosso objetivo é ajudar as meninas a
         construir uma base sólida de fé e identidade, para que possam
       </TabPanel>
-      <TabPanel
+      <TabPanel className='panel2'
         value={value}
         index={4}
         style={{
@@ -260,7 +268,7 @@ export default function VerticalTabs() {
         para a glória de Deus transforma o aprendizado em um ato de adoração,
         serviço e propósito eterno.
       </TabPanel>
-      <TabPanel
+      <TabPanel className='panel2'
         value={value}
         index={5}
         style={{
@@ -299,7 +307,7 @@ export default function VerticalTabs() {
         HISTÓRIA DA IGREJA, CULTURA, GEOPOLÍTICA, CIÊNCIA NA CRIAÇÃO, REDAÇÃO,
         GRAMÁTICA, VOCABULÁRIO, EXPOSIÇÃO, DEBATE, LÓGICA, RETÓRICA, DIALÉTICA.
       </TabPanel>
-      <TabPanel
+      <TabPanel className='panel2'
         value={value}
         index={6}
         style={{

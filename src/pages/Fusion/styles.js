@@ -58,6 +58,30 @@ width: 40%;
     color: ${theme.colors.blue};
 
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .main {
+    font-size: 1.1rem;
+
+    span {
+        font-size: 1.8rem;
+    }
+}
+
+.footerText {
+    font-size: .8rem;
+
+
+}
+
+.second {
+    font-size: .9rem;
+
+}
+     
+    }
+
+
 `
 export const ContainerRight = styled.div`
 

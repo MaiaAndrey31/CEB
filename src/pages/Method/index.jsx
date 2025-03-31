@@ -18,7 +18,7 @@ export default function Method() {
       <Content>
         <h2>EDUCAÇÃO CRISTÃ</h2>
         <div>
-          <App
+          <App className='card' 
             titles="FUNDAMENTO BÍBLICO"
             content="A Bíblia é central
 na formação do caráter e da ética dos
@@ -28,7 +28,7 @@ nas atividades diárias, incentivando os
 bereanos a aplicar esses valores na
 prática."
           />
-          <App
+          <App className='card'
             titles="ESPIRITUALIDADE"
             content="O clube promove
 momentos de oração, estudo bíblico e
@@ -38,7 +38,7 @@ dos alunos e sua relação com Deus."
         </div>
         <h2>ENSINO RESPEITOSO</h2>
         <div>
-          <App
+          <App className='card'
             titles="RESPEITO AO RITMO DO ESTUDANTE"
             content="O
 método respeita o tempo e o ritmo de
@@ -48,7 +48,7 @@ individuais, com suporte personalizado e
 acompanhamento constante para
 garantir o sucesso acadêmico e pessoal."
           />
-          <App
+          <App className='card'
             titles="AUTONOMIA"
             content="Os bereanos são
 incentivados a assumir responsabilidade
@@ -60,13 +60,13 @@ pesquisa e organização."
         </div>
         <h2>AUTONOMIA E ESTÍMULO AO PENSAMENTO CRÍTICO</h2>
         <div>
-          <App
+          <App className='card'
             titles="PESQUISA E INVESTIGAÇÃO"
             content="A metodologia promove a investigação, questionamento e a
 busca por respostas. A ideia é cultivar a curiosidade natural dos bereanos, incentivando-
 os a explorar novas ideias e conceitos de maneira ativa."
           />
-          <App
+          <App className='card'
             titles="DESENVOLVER O PENSAMENTO CRÍTICO"
             content="O estímulo ao raciocínio lógico e a
 capacidade de avaliar informações e situações faz parte da proposta educativa do CEB.
@@ -75,7 +75,7 @@ O foco é preparar os nossos bereanos para tomar decisões informadas e éticas.
         </div>
         <h2>ENSINO MULTIDICIPLINAR</h2>
         <div>
-          <App
+          <App className='card'
             titles="INTEGRAR ÁREAS DO CONHECIMENTO"
             content="O CEB
 adota uma metodologia que integra diversas
@@ -83,7 +83,7 @@ disciplinas, relacionando temas bíblicos,
 sociais, científicos e culturais. Isso permite aos
 bereanos uma visão mais holística do mundo."
           />
-          <App
+          <App className='card'
             titles="PROJETOS INTERDISCIPLINARES"
             content="A realização de
 projetos que envolvem várias áreas do
@@ -94,14 +94,14 @@ aplicar o aprendizado em situações reais."
         </div>
         <h2>AMBIENTE COLABORATIVO</h2>
         <div>
-          <App
+          <App className='card'
             titles="TRABALHO EM EQUIPE"
             content="A colaboração entre
 os bereanos é incentivada por meio de
 atividades que requerem cooperação,
 respeito mútuo e troca de ideias."
           />
-          <App
+          <App className='card'
             titles="RESOLUÇÃO DE CONFLITOS"
             content="A convivência em
 um ambiente cristão promove o
@@ -112,13 +112,13 @@ resolução de conflitos de maneira pacífica."
         </div>
         <h2>FORMAÇÃO INTEGRAL</h2>
         <div>
-          <App
+          <App className='card'
             titles="DESENVOLVER O EMOCIONAL E SOCIAL"
             content="Além do conhecimento acadêmico, o CEB valoriza o
 desenvolvimento das competências socioemocionais dos bereanos preparando-os para se
 tornarem cidadãos conscientes, responsáveis e éticos."
           />
-          <App
+          <App className='card'
             titles="EDUCAÇÃO PARA A VIDA"
             content="A formação inclui aspectos práticos e úteis para o cotidiano, como
 habilidades de liderança, comunicação eficaz, gestão de tempo e tomada de decisões."

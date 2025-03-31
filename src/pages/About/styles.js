@@ -13,6 +13,11 @@ padding: 1rem;
 div {
     display: flex;
     gap: 0.5rem;
+
+    @media (min-width: 481px) and (max-width: 767px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
 }
 
 h1{
@@ -43,6 +48,12 @@ span {
     color: ${theme.colors.primary};
 }
 
+@media (max-width: 768px) {
+width: 90%;
+p{
+    font-size: 1rem;
+}}
+
 `
 
 export const ContainerRight = styled.div`
@@ -55,6 +66,10 @@ img {
     max-height: 550px;
     padding-bottom: 1.2rem;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+      width: 90%;
+    }
 
 `
 

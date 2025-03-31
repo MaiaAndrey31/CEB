@@ -19,18 +19,48 @@ display: flex;
 align-items: center;
 justify-content: center;
 background-color: ${theme.colors.primary};
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  @media (max-width: 768px) {
+    
+    flex-direction: column;
+    /* Further adjust for tablets */
+  }
 `
 
 export const ContainerLeft = styled.div`
 width: 50%;
 height: auto;
 display: flex;
-justify-content: space-between;
+
 img{
     height: 80px;
     width: 180px;
     border-radius: 30px;
+   
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: auto;
+    height: auto;  
+    justify-content: space-between;
+
+    img {
+        padding-right: 2rem;
+    }
+  }
+  @media (max-width: 768px) {
+    justify-content: space-between;
+    padding-bottom: 2rem;
+
+    /* Further adjust for tablets */
+  }
+
+  
 
 `
 export const ContainerRight = styled.div`
@@ -40,7 +70,10 @@ display: flex;
 justify-content: center;
 gap: 2rem;
 
-
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: auto;
+    height: auto;
+  }
 
 
 `
@@ -63,6 +96,10 @@ a{
     font-size: 1.2rem;
 }
 
+@media (max-width: 768px) {
+    justify-content: space-around;
+  }
+
 
 `
 
@@ -80,6 +117,23 @@ h1{
     font-size: 2.2rem;
     padding: 1rem;
 }
+
+  
+
+  @media (min-width: 1200px) and (max-width: 1919px) {
+    padding-bottom: 2rem;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    width: 100%;
+
+    height: auto;
+  }
+
+  @media (min-width: 300px) and (max-width: 480px) {
+    height: auto;
+    min-width: 100%;
+  }
 `
 
 export const HeroContent = styled.div`
@@ -89,6 +143,16 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
 `
 
 export const ContentLeft = styled.div`
@@ -112,6 +176,11 @@ p{
         font-weight: 700;
     }
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+  }
 `
 
 export const ContentRight = styled.div`
@@ -121,5 +190,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 
+@media (max-width: 768px) {
+padding-bottom: 2rem;
 
+}
 `

@@ -50,5 +50,26 @@ h3 {
     padding: 1rem;
 
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+    width: 100%;
+    height: auto;
+    h2{
+        font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+      div {
+        flex-direction: column;
+
+        .card {
+            width: 100%;
+            height: 300px;
+        }
+      }
+      h2{
+        font-size: 1.4rem;
+      }
+    }
 
 `

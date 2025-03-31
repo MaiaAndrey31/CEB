@@ -52,45 +52,46 @@ export default function BasicTabs() {
       style={{ backgroundColor: '#333333' }}
     >
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs
+        <Tabs 
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
+          style={{width: '100%'}}
         >
-          <Tab
-            label="CÍRCULO MESSIAS"
+          <Tab className='tab1'
+            label="MESSIAS"
             {...a11yProps(0)}
             style={{
               fontFamily: 'Sports-World',
               color: '#F7DE58',
-              fontSize: 18
+              fontSize: 14
             }}
           />
-          <Tab
-            label="CÍRCULO BUNYAN"
+          <Tab className='tab1'
+            label="BUNYAN"
             {...a11yProps(1)}
             style={{
               fontFamily: 'Sports-World',
               color: '#F7DE58',
-              fontSize: 18
+              fontSize: 14
             }}
           />
-          <Tab
-            label="CÍRCULO LEÃO"
+          <Tab className='tab1'
+            label="LEÃO"
             {...a11yProps(2)}
             style={{
               fontFamily: 'Sports-World',
               color: '#F7DE58',
-              fontSize: 18
+              fontSize: 14
             }}
           />
-          <Tab
-            label="CÍRCULO NAVIO"
+          <Tab className='tab1'
+            label="NAVIO"
             {...a11yProps(3)}
             style={{
               fontFamily: 'Sports-World',
               color: '#F7DE58',
-              fontSize: 18
+              fontSize: 14
             }}
           />
         </Tabs>
