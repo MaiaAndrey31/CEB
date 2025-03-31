@@ -64,6 +64,17 @@ h2 {
 
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+      img{
+height: 100px;
+width: 180px;
+
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+
 `
 export const ContainerCenter = styled.div`
 display: flex;
