@@ -20,7 +20,10 @@ padding: .9rem;
 height: auto;
 width: 100%; 
 
-
+@media (min-width: 481px) and (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+    }
 `
 
 export const ContainerLeft = styled.div`
@@ -60,6 +63,7 @@ width: 40%;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    width: 90%;
     .main {
     font-size: 1.1rem;
 
@@ -86,4 +90,8 @@ width: 40%;
 export const ContainerRight = styled.div`
 
 width: 60%;
+
+@media (min-width: 481px) and (max-width: 767px) {
+      width: 80%;
+    }
 `
