@@ -19,7 +19,7 @@ export default function Footer() {
     <Container id="contact">
       <ContainerLeft>
         <img src={Logo} alt="" />
-        <a href="https://www.clubeeducacionalbereia.com/blog" target='_blank'>
+        <a href="https://blog.clubeeducacionalbereia.com/" target='_blank'>
           <h2>VISITE NOSSO BLOG</h2>
         </a>
       </ContainerLeft>

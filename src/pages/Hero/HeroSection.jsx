@@ -44,7 +44,7 @@ export function HeroSection() {
           </ContactContainer>
           <ContactContainer>
             <a
-              href="https://www.clubeeducacionalbereia.com/blog"
+              href="https://blog.clubeeducacionalbereia.com"
               target="_blank"
             >
               <FeedIcon style={{ color: theme.colors.blue }} />
