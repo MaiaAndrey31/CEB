@@ -10,7 +10,7 @@ height: auto;
 
 h1 {
     font-size: 3rem;
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
     padding-top: 1rem;
 }
 `

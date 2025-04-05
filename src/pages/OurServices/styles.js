@@ -10,7 +10,7 @@ flex-direction: column;
 align-items: center;
 
 h1 {
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
     font-size: 3rem;
     color: ${theme.colors.darktext};
     padding: 1.8rem;

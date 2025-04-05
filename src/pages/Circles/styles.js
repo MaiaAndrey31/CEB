@@ -14,13 +14,13 @@ background-color: ${theme.colors.dark};
 
 h1 {
     color: ${theme.colors.lightblue};
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
     font-size: 3rem;
 }
 
 h2{
     color: ${theme.colors.lightblue};
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
     font-size: 2rem;
 }
 .textCircle {

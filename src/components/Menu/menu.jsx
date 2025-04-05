@@ -27,7 +27,7 @@ export default function BasicMenu() {
         onClick={handleClick}
         style={{
           color: theme.colors.blue,
-          fontFamily:'Sports-World', 
+          fontFamily:'Sports World', 
           fontSize: '1.2rem',
           fontWeight: 'bold',
           display: 'flex',

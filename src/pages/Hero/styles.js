@@ -82,7 +82,7 @@ export const ContactContainer = styled.div`
     gap: 0.3rem;
     text-decoration: none;
     color: ${theme.colors.dark};
-    font-family: 'Sports-World';
+   font-family: 'Sports World', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
   }
@@ -102,7 +102,7 @@ export const Hero = styled.div`
 
   h1 {
     color: ${theme.colors.blue};
-    font-family: 'Sports-World';
+   font-family: 'Sports World', sans-serif;
     font-size: 2.2rem;
     padding: 1rem;
   }

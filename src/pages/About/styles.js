@@ -28,7 +28,7 @@ div {
 
 h1{
     color: ${theme.colors.primary};
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
     font-weight: 700;
     font-size: 3rem;
 }

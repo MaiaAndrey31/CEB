@@ -12,7 +12,7 @@ const App = ({titles, content}) => (
     style={{
       width: 400,
       backgroundColor: '#F7DE58',
-      fontFamily:'Sports-World',
+      fontFamily: 'Sports World',
       fontWeight: 600,
       fontSize: 18,
       display: 'flex',

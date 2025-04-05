@@ -11,7 +11,7 @@ justify-content: center;
 background-color: ${theme.colors.secondary};
 
 h1{
-    font-family: 'Sports-World';
+   font-family: 'Sports World', sans-serif;
     font-size: 3.2rem;
     color: ${theme.colors.lighttext};
     padding-top: 1rem;
@@ -44,7 +44,7 @@ div {
 }
 
 h2{
-    font-family: 'Sports-World';
+   font-family: 'Sports World', sans-serif;
     font-size: 2.4rem;
     color: ${theme.colors.blue};
 }
