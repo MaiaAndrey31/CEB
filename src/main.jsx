@@ -5,8 +5,8 @@ import { GlobalStyles } from './styles/GlobalStyles'
 import { HeroSection } from './pages/Hero/HeroSection'
 
 
-import './fonts/Sports World-Regular.otf'
-import './fonts/Sports World-Regular.ttf'
+import './fonts/Sports-World-Regular.otf'
+import './fonts/Sports-World-Regular.ttf'
 import About from './pages/About'
 import Fusion from './pages/Fusion'
 import Method from './pages/Method'
