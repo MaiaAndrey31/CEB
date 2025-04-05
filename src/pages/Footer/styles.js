@@ -74,6 +74,20 @@ width: 180px;
         font-size: 1.2rem;
       }
     }
+    @media (min-width: 300px) and (max-width: 480px) {
+      padding: 0.5rem;
+      img{
+height: 95px;
+width: 140px;
+object-fit: cover;
+
+      }
+      h2 {
+        font-size: 1rem;
+        text-align: center;
+      }
+
+}
 
 `
 export const ContainerCenter = styled.div`
@@ -84,7 +98,7 @@ align-items: center;
 gap: 0.6rem;
 
 
-P {
+p {
     text-decoration: none;
     font-family: 'Sports-World';
     font-size: 18px;
@@ -92,6 +106,12 @@ P {
     color: ${theme.colors.blue};
 
     
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  p {
+    font-size: 13px;
+  }
+
 }
 :hover {
         color: ${theme.colors.primary};

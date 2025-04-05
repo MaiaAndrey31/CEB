@@ -29,6 +29,22 @@ p {
         padding: 1rem;
 }
 
+@media (min-width: 300px) and (max-width: 480px) {
+
+h1{
+    font-size: 2.5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;    
+    width: 90%;
+    text-align: center;
+}
+
+}
+
 `
 
 

@@ -18,6 +18,14 @@ h1{
 
 }
 
+@media (min-width: 300px) and (max-width: 480px) {
+    h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+}
+
 `
 export const Content = styled.div`
 
@@ -70,6 +78,30 @@ h3 {
       h2{
         font-size: 1.4rem;
       }
+    }
+
+
+    @media (min-width: 300px) and (max-width: 480px) {
+        div {
+        flex-direction: column;
+
+        .card {
+            width: 100%;
+            height: 280px;
+        }
+      }
+      h2{
+        font-size: 1.4rem;
+        text-align: center;
+      }
+
+      h3{
+        font-size: 1.2rem;
+        text-align: center;
+        width: 90%;
+      }
+    
+
     }
 
 `

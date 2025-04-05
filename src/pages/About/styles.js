@@ -18,6 +18,12 @@ div {
       flex-direction: column-reverse;
       align-items: center;
     }
+
+    @media (min-width: 300px) and (max-width: 480px) {
+
+        flex-direction: column-reverse;
+      align-items: center;
+    }
 }
 
 h1{

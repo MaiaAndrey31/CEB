@@ -68,6 +68,34 @@ p{
 }
     }
 
+    @media (min-width: 300px) and (max-width: 480px) {
+        height: auto;
+
+        h1 {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        h2{
+    
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+p{
+    
+    font-size: 1rem;
+    
+
+}
+
+.textCircle {
+    font-size: 1.1rem;
+    max-width: 90%;
+
+}
+}
+
 
 
 `

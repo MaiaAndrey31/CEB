@@ -22,6 +22,15 @@ h1 {
         padding: 0.8rem;
      }
     }
+    @media (min-width: 300px) and (max-width: 480px) {
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+}
+
+    
 
 
 `
@@ -39,6 +48,12 @@ padding: 1rem;
   @media (min-width: 481px) and (max-width: 767px) {
      flex-direction: column;
     }
+
+    @media (min-width: 300px) and (max-width: 480px) {
+
+flex-direction: column;
+width: 100%;
+}
 `
 
 export const ContainerRight = styled.div`
@@ -63,6 +78,10 @@ p {
   @media (min-width: 481px) and (max-width: 767px) {
       width: 100%;
   }
+  @media (min-width: 300px) and (max-width: 480px) {
+    width: 100%;
+
+}
 `
 
 export const ContainerLeft = styled.div`
@@ -82,5 +101,8 @@ img {
 @media (min-width: 481px) and (max-width: 767px) {
       width: 100%;
     }
+    @media (min-width: 300px) and (max-width: 480px) {
+        width: 100%;
+}
 
 `
