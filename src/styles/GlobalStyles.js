@@ -17,13 +17,13 @@ export const GlobalStyles = createGlobalStyle`
 }
 @font-face {
  font-family: "Sports-World";
- src: local("Sports World-Regular"),
+ src: local("Sports-World-Regular"),
   url("./src/fonts/Sports World-Regular.otf") format("truetype");
  font-weight: bold;
 }
 @font-face {
  font-family: "Sports-World";
- src: local("Sports World-Regular"),
+ src: local("Sports-World-Regular"),
   url("./src/fonts/Sports World-Regular.ttf") format("truetype");
  font-weight: bold;
 }
