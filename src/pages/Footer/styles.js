@@ -30,7 +30,7 @@ export const Content = styled.div`
 
   p {
     color: ${theme.colors.primary};
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
     font-weight: 600;
     font-size: .9rem;
   }
@@ -58,7 +58,7 @@ a {
 h2 {
     text-decoration: none;
     color: ${theme.colors.lightblue};
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
 
    
 
@@ -100,7 +100,7 @@ gap: 0.6rem;
 
 p {
     text-decoration: none;
-    font-family: 'Sports-World';
+    font-family: 'Sports World', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: ${theme.colors.blue};

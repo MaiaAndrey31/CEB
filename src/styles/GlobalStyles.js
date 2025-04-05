@@ -15,6 +15,8 @@ export const GlobalStyles = createGlobalStyle`
     }
 
 }
+
+@import url('https://fonts.cdnfonts.com/css/sports-world');
 @font-face {
  font-family: "Sports-World";
  src: local("Sports-World"),
