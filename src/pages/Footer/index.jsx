@@ -12,7 +12,7 @@ import EmailIcon from '@mui/icons-material/Email'
 import YouTubeIcon from '@mui/icons-material/YouTube'
 import { theme } from '../../styles/theme'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Logo from '../../assets/logo.webp'
+import Logo from '../../assets/Logo.webp'
 
 export default function Footer() {
   return (
