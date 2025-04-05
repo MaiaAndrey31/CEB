@@ -4,6 +4,10 @@ import { createRoot } from 'react-dom/client'
 import { GlobalStyles } from './styles/GlobalStyles'
 import { HeroSection } from './pages/Hero/HeroSection'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> eea4f0650c05cea0c986a2bd489d8b2a4bb79609
 import './fonts/Sports-World-Regular.otf'
 import './fonts/Sports-World-Regular.ttf'
 import About from './pages/About'
