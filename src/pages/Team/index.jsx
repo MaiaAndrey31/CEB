@@ -1,7 +1,7 @@
 import TeamCard from '../../components/TeamCard'
 import { Container, Content } from './styles'
 import Alessandra from '../../assets/Alessandra.jpg'
-import Priscila from '../../assets/priscila.jpg'
+import Priscila from '../../assets/Priscila.jpg'
 import Debora from '../../assets/Debora.jpeg'
 import Viviana from '../../assets/Viviana.jpeg'
 import Ingrid from '../../assets/Ingrid.jpeg'
