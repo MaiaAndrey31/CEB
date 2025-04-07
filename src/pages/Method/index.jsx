@@ -6,7 +6,7 @@ export default function Method() {
     <Container id='method'>
       <h1>NOSSA METODOLOGIA</h1>
 
-      <p>
+      <p className='intro'>
         A metodologia do Clube Educacional Beréia é fundamentada em uma
         abordagem bíblica, cristã e pedagógica, visando proporcionar uma
         educação integral que envolve o desenvolvimento espiritual, cognitivo,

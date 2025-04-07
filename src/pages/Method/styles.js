@@ -17,11 +17,23 @@ h1{
     padding-top: 1rem;
 
 }
+.intro{
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+  color: ${theme.colors.lighttext};
+  width: 90%;
+  padding: 1rem;
+}
 
 @media (min-width: 300px) and (max-width: 480px) {
     h1{
         font-size: 2.5rem;
         text-align: center;
+    }
+    .intro{
+      font-size: 1rem;
+      text-align: center;
+      
     }
 
 }
