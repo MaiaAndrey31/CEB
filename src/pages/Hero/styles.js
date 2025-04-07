@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { theme } from '../../styles/theme'
 export const Container = styled.div`
   background-color: ${theme.colors.secondary};
-  min-height: 100vh;
+  min-height: 100%;
   width: 100vw;
 `
 
