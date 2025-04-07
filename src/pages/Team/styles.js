@@ -11,6 +11,7 @@ align-items: center;
 
 h1 {
     font-family: 'Sports World';
+    font-weight: 400;
     font-size: 3rem;
     color: ${theme.colors.lightblue};
     padding: 1.8rem;

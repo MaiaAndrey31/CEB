@@ -103,6 +103,7 @@ export const Hero = styled.div`
   h1 {
     color: ${theme.colors.blue};
    font-family: 'Sports World', sans-serif;
+   font-weight: 400;
     font-size: 2.2rem;
     padding: 1rem;
   }

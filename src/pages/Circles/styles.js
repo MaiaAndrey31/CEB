@@ -16,12 +16,14 @@ h1 {
     color: ${theme.colors.lightblue};
     font-family: 'Sports World', sans-serif;
     font-size: 3rem;
+    font-weight: 400;
 }
 
 h2{
     color: ${theme.colors.lightblue};
     font-family: 'Sports World', sans-serif;
     font-size: 2rem;
+    font-weight: 400;
 }
 .textCircle {
     color: ${theme.colors.lighttext};

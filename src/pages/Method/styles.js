@@ -12,6 +12,7 @@ background-color: ${theme.colors.secondary};
 
 h1{
    font-family: 'Sports World', sans-serif;
+   font-weight: 400;
     font-size: 3.2rem;
     color: ${theme.colors.lighttext};
     padding-top: 1rem;
@@ -25,6 +26,19 @@ h1{
   padding: 1rem;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  h1{
+        font-size: 2.6rem;
+        text-align: center;
+    }
+    .intro{
+      font-size: 1.1rem;
+      text-align: center;
+
+    }
+
+}
+
 @media (min-width: 300px) and (max-width: 480px) {
     h1{
         font-size: 2.5rem;
@@ -33,7 +47,7 @@ h1{
     .intro{
       font-size: 1rem;
       text-align: center;
-      
+
     }
 
 }

@@ -15,6 +15,7 @@ justify-content: center;
 h1 {
 
     color: ${theme.colors.blue};
+    font-weight: 400;
     font-family: 'Sports World', sans-serif;
     font-size: 3.2rem;
     padding-top: 1rem;

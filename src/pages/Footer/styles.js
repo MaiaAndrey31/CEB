@@ -31,7 +31,7 @@ export const Content = styled.div`
   p {
     color: ${theme.colors.primary};
     font-family: 'Sports World', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: .9rem;
   }
 
