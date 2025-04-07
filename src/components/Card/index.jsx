@@ -13,7 +13,7 @@ const App = ({titles, content}) => (
       width: 400,
       backgroundColor: '#F7DE58',
       fontFamily: 'Sports World',
-      fontWeight: 600,
+      fontWeight: 400,
       fontSize: 18,
       display: 'flex',
       flexDirection: 'column',

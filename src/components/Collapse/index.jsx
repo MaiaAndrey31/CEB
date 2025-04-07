@@ -19,7 +19,7 @@ export default function AccordionExpandIcon({ header, text, icon }) {
         >
           <Typography
             component="span"
-            style={{ fontFamily: 'Sports World', fontWeight: 700, display: 'flex', alignItems: 'center', gap: '10px' }}
+            style={{ fontFamily: 'Sports World', fontWeight: 400, display: 'flex', alignItems: 'center', gap: '10px' }}
           >
             <img style={{ maxHeight: 40 }} src={icon} />
             {header}

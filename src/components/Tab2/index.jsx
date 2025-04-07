@@ -69,7 +69,7 @@ export default function VerticalTabs() {
           label="MESSIAS"
           {...a11yProps(0)}
           style={{
-            fontFamily: 'Sports World',
+            fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
             fontSize: 12,
            
@@ -79,7 +79,7 @@ export default function VerticalTabs() {
           label="BUNYAN"
           {...a11yProps(1)}
           style={{
-            fontFamily: 'Sports World',
+            fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
             fontSize: 12,
            
@@ -89,7 +89,7 @@ export default function VerticalTabs() {
           label="JONATHAN"
           {...a11yProps(2)}
           style={{
-            fontFamily: 'Sports World',
+            fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
             fontSize: 12,
            
@@ -99,7 +99,7 @@ export default function VerticalTabs() {
           label="SARAH"
           {...a11yProps(3)}
           style={{
-            fontFamily: 'Sports World',
+            fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
             fontSize: 12,
            
@@ -109,7 +109,7 @@ export default function VerticalTabs() {
           label="HABLEMOS"
           {...a11yProps(4)}
           style={{
-            fontFamily: 'Sports World',
+            fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
             fontSize: 12,
            
@@ -119,7 +119,7 @@ export default function VerticalTabs() {
           label="BERÉIA"
           {...a11yProps(5)}
           style={{
-            fontFamily: 'Sports World',
+            fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
             fontSize: 12,
            
@@ -129,7 +129,7 @@ export default function VerticalTabs() {
           label="SAPIENCIAL"
           {...a11yProps(6)}
           style={{
-            fontFamily: 'Sports World',
+            fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
             fontSize: 12,
            
@@ -255,7 +255,7 @@ export default function VerticalTabs() {
         também adquire um entendimento mais profundo de um capítulo fascinante
         da história ibérica. Essa abordagem multidimensional enriquece seu
         aprendizado e o torna mais significativo. <br /> <br />{' '}
-        <span style={{ fontFamily: 'Sports World', color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#70E1E6' }}>
           Vantagens:
         </span>
         <br /> <br /> Estimula o interesse natural por histórias e personagens.
@@ -278,19 +278,19 @@ export default function VerticalTabs() {
           maxWidth: '90%'
         }}
       >
-        <span style={{ fontFamily: 'Sports World', color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#70E1E6' }}>
           GRUPO CHAVALES
         </span>
         <br />
         <br />
-        <span style={{ fontFamily: 'Sports World', color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#F7DE58' }}>
           FASE 1
         </span>
         <br />
         GRAMÁTICA, VOCABULÁRIO, COMPREENSÃO DA LEITURA, LÓGICA, RETÓRICA,
         DIALÉTICA, GEOGRAFIA BRASILEIRA, EXPOSIÇÕES, DEBATES.
         <br /> <br />
-        <span style={{ fontFamily: 'Sports World', color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#F7DE58' }}>
           FASE 2
         </span>
         <br />
@@ -299,7 +299,7 @@ export default function VerticalTabs() {
         EXPOSIÇÕES, DEBATES.
         <br />
         <br />
-        <span style={{ fontFamily: 'Sports World', color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#70E1E6' }}>
           GRUPO PEÑA{' '}
         </span>
         <br />
@@ -317,38 +317,38 @@ export default function VerticalTabs() {
           maxWidth: '90%'
         }}
       >
-        <span style={{ fontFamily: 'Sports World', color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#70E1E6' }}>
           GRUPO CHAVALES
         </span>
         <br />
         <br />
-        <span style={{ fontFamily: 'Sports World', color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#F7DE58' }}>
           FASE 1
         </span>{' '}
         <br />
         CÁLCULO BÁSICO, PORCENTAGEM, PROBLEMAS, EDUCAÇÃO FINANCEIRA, PROJETOS,
         <br /> <br />
-        <span style={{ fontFamily: 'Sports World', color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#F7DE58' }}>
           Ciência sob a visão Criacionista
         </span>
         <br />
         VEGETAIS, SERES VIVOS, CORPO HUMANO.
         <br /> <br />
-        <span style={{ fontFamily: 'Sports World', color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#F7DE58' }}>
           FASE 1
         </span>
         <br />
         CÁLCULO BÁSICO, PORCENTAGEM, PROBLEMAS, EDUCAÇÃO FINANCEIRA, LOGISTICA,
         PROJETO,
         <br /> <br />
-        <span style={{ fontFamily: 'Sports World', color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#F7DE58' }}>
           Ciência sob a visão Criacionista
         </span>
         <br />
         MEIO AMBIENTE, DINOSSAUROS, ASTRONOMIA.
         <br />
         <br />
-        <span style={{ fontFamily: 'Sports World', color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World',fontWeight: 400, color: '#70E1E6' }}>
           GRUPO PEÑA
         </span>
         <br />

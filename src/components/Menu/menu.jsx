@@ -29,7 +29,7 @@ export default function BasicMenu() {
           color: theme.colors.blue,
           fontFamily:'Sports World', 
           fontSize: '1.2rem',
-          fontWeight: 'bold',
+          fontWeight: 400,
           display: 'flex',
           flexDirection: 'column'
         }}
