@@ -9,7 +9,7 @@ import Diana from '../../assets/Diana.jpg'
 import Reginaldo from '../../assets/Reginaldo.jpeg'
 import Felipe from '../../assets/Felipe.jpeg'
 import Gabriele from '../../assets/Gabriele.jpeg'
-import GabrieleG from '../../assets/GabrieleG.jpg'
+import GabrieleG from '../../assets/GabiG.png'
 
 
 

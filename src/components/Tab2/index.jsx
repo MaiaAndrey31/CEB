@@ -304,7 +304,7 @@ export default function VerticalTabs() {
         </span>
         <br />
         <br />
-        HISTÓRIA DA IGREJA, CULTURA, GEOPOLÍTICA, CIÊNCIA NA CRIAÇÃO, REDAÇÃO,
+        HISTÓRIA DA IGREJA, CULTURA, GEOPOLÍTICA, HISTÓRIA, REDAÇÃO,
         GRAMÁTICA, VOCABULÁRIO, EXPOSIÇÃO, DEBATE, LÓGICA, RETÓRICA, DIALÉTICA.
       </TabPanel>
       <TabPanel className='panel2'
