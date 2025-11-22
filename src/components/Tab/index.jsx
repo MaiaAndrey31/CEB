@@ -49,7 +49,7 @@ export default function BasicTabs() {
         flexDirection: 'column',
         alignItems: 'center'
       }}
-      style={{ backgroundColor: '#333333' }}
+      style={{ backgroundColor: '#4C9DA0' }}
     >
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs 
@@ -148,7 +148,7 @@ export default function BasicTabs() {
           maxWidth: '90%'
         }}
       >
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
           FASE 1
         </span>
         <br />
@@ -157,7 +157,7 @@ export default function BasicTabs() {
         POVOS ANTIGOS - PARTE 1, LOCALIZAÇÃO GEOGRÁFICA, ASPECTOS FÍSICOS E
         CULTURAIS
         <br /><br />
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
           FASE 2
         </span>
         <br />
@@ -177,7 +177,7 @@ export default function BasicTabs() {
           maxWidth: '90%'
         }}
       >
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
           FASE 1
         </span>
         <br />
@@ -186,7 +186,7 @@ export default function BasicTabs() {
         ORGANIZAÇÃO FINANCEIRA, CONCEITO DE ORGANIZAÇÃO, A LÓGICA DA
         ORGANIZAÇÃO, DICAS PRÁTICAS.
         <br /><br />
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#70E1E6' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
           FASE 2
         </span>
         <br />

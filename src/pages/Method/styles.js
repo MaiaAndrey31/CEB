@@ -72,7 +72,7 @@ div {
 h2{
    font-family: 'Sports World', sans-serif;
     font-size: 2.4rem;
-    color: ${theme.colors.dark};
+    color: ${theme.colors.light};
 }
 
 h3 {

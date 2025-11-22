@@ -31,9 +31,7 @@ Coordenadora CEB Espanhol"
         <TeamCard
           picture={Priscila}
           name="Priscila Simões"
-          role="Mãe Educadora e Sócia-fundadora
-Vice-diretora CEB
-Educadora Cristã
+          role="Mãe Educadora Cristã
 Coordenadora do Departamento
 Peques"
         />

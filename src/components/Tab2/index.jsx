@@ -49,7 +49,7 @@ export default function VerticalTabs() {
     <Box
       sx={{
         flexGrow: 1,
-        bgcolor: '#333333',
+        bgcolor: '#4C9DA0',
         display: 'flex',
         height: 'auto',
         minWidth: '90vw',
@@ -71,7 +71,7 @@ export default function VerticalTabs() {
           style={{
             fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
-            fontSize: 12,
+            fontSize: 14,
            
           }}
         />
@@ -81,7 +81,7 @@ export default function VerticalTabs() {
           style={{
             fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
-            fontSize: 12,
+            fontSize: 14,
            
           }}
         />
@@ -91,7 +91,7 @@ export default function VerticalTabs() {
           style={{
             fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
-            fontSize: 12,
+            fontSize: 14,
            
           }}
         />
@@ -101,7 +101,7 @@ export default function VerticalTabs() {
           style={{
             fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
-            fontSize: 12,
+            fontSize: 14,
            
           }}
         />
@@ -111,7 +111,7 @@ export default function VerticalTabs() {
           style={{
             fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
-            fontSize: 12,
+            fontSize: 14,
            
           }}
         />
@@ -121,7 +121,7 @@ export default function VerticalTabs() {
           style={{
             fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
-            fontSize: 12,
+            fontSize: 14,
            
           }}
         />
@@ -131,7 +131,7 @@ export default function VerticalTabs() {
           style={{
             fontFamily: 'Sports World',fontWeight: 400,
             color: '#F7DE58',
-            fontSize: 12,
+            fontSize: 14,
            
           }}
         />
