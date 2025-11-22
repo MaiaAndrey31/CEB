@@ -7,7 +7,7 @@ export default function Rights(){
         <Container>
 
             <div><p>© 2025 Clube Educacional Beréia. Todos os direitos reservados.</p>
-            <p>Desenvolvido por <a href="https://www.instagram.com/oandreymaia/" target='blank'>Andrey Maia.</a></p></div>
+            <p>Desenvolvido por <a href="https://www.instagram.com/oandreymaia.dev/" target='blank'>Andrey Maia.</a></p></div>
             
              </Container>
     )
