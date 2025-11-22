@@ -6,7 +6,7 @@ export const Container = styled.div`
 background-color: transparent;
 border: 1px solid ${theme.colors.lightblue};
 border-radius: 10%;
-height: 340px;
+height: 370px;
 width: 280px;
 display: flex;
 flex-direction: column;
@@ -30,7 +30,7 @@ img {
 
 h6 {
     font-size: 1.4rem;
-    color: ${theme.colors.lightblue};
+    color: ${theme.colors.light};
     
     padding-bottom: 10px;
     font-family: 'Poppins';
@@ -39,8 +39,8 @@ h6 {
     
 }
 p {
-    font-size: 12px;
-    color: ${theme.colors.lighttext};
+    font-size: 13px;
+    color: ${theme.colors.darktext};
     font-weight: 500;
     font-family: 'Poppins';
     text-align: center;

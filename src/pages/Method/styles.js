@@ -8,7 +8,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background-color: ${theme.colors.secondary};
+background-color: ${theme.colors.blue};
 
 h1{
    font-family: 'Sports World', sans-serif;
@@ -21,7 +21,7 @@ h1{
 .intro{
   font-family: 'Poppins';
   font-size: 1.2rem;
-  color: ${theme.colors.lighttext};
+  color: ${theme.colors.light};
   width: 90%;
   padding: 1rem;
 }
@@ -72,14 +72,14 @@ div {
 h2{
    font-family: 'Sports World', sans-serif;
     font-size: 2.4rem;
-    color: ${theme.colors.blue};
+    color: ${theme.colors.dark};
 }
 
 h3 {
     font-size: 1.5rem;
     font-family: 'Poppins';
     font-weight: 700;
-    color: ${theme.colors.lightblue};
+    color: ${theme.colors.light};
     max-width: 80%;
     padding: 1rem;
 

@@ -37,7 +37,7 @@ export default function BasicMenu() {
         Menu
         <MenuIcon
           style={{
-            color: theme.colors.secondary,
+            color: theme.colors.dark,
             fontSize: '1.8rem',
             fontWeight: 'bolder'
           }}
@@ -53,11 +53,11 @@ export default function BasicMenu() {
         }}
       >
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#home"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
            Home
@@ -65,11 +65,11 @@ export default function BasicMenu() {
         </AnchorLink>
 
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#who"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
             Quem Somos
@@ -77,11 +77,11 @@ export default function BasicMenu() {
         </AnchorLink>
 
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#fusion"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
            Fusão
@@ -89,66 +89,78 @@ export default function BasicMenu() {
         </AnchorLink>
 
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#method"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
             Metodologia
           </MenuItem>
         </AnchorLink>
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#pillars"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
             Pilares
           </MenuItem>
         </AnchorLink>
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#circles"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
             Círculos
           </MenuItem>
         </AnchorLink>
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#help"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
             Serviços
           </MenuItem>
         </AnchorLink>
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#team"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
             Equipe
           </MenuItem>
         </AnchorLink>
+
         <AnchorLink
-          style={{ textDecoration: 'none', color: theme.colors.primary }}
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
+          href="#certification"
+        >
+          <MenuItem
+            style={{ backgroundColor: theme.colors.blue }}
+            onClick={handleClose}
+          >
+            Certificação
+          </MenuItem>
+        </AnchorLink>
+        <AnchorLink
+          style={{ textDecoration: 'none', color: theme.colors.darktext }}
           href="#contact"
         >
           <MenuItem
-            style={{ backgroundColor: theme.colors.secondary }}
+            style={{ backgroundColor: theme.colors.blue }}
             onClick={handleClose}
           >
             Contato

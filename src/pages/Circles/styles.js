@@ -10,17 +10,17 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 padding: 1rem;
-background-color: ${theme.colors.dark};
+background-color: ${theme.colors.blue};
 
 h1 {
-    color: ${theme.colors.lightblue};
+    color: ${theme.colors.light};
     font-family: 'Sports World', sans-serif;
     font-size: 3rem;
     font-weight: 400;
 }
 
 h2{
-    color: ${theme.colors.lightblue};
+    color: ${theme.colors.primary};
     font-family: 'Sports World', sans-serif;
     font-size: 2rem;
     font-weight: 400;

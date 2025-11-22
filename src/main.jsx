@@ -16,6 +16,7 @@ import OurServices from './pages/OurServices'
 import Team from './pages/Team'
 import Footer from './pages/Footer'
 import Rights from './components/Rights'
+import Certification from './pages/Certification'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
     <Pillars />
     <Circles />
     <OurServices />
+    <Certification />
     <Team />
     <Footer />
     <Rights />

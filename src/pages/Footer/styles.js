@@ -4,7 +4,7 @@ import { theme } from "../../styles/theme"
 
 export const Container = styled.div`
 width: 100vw;
-background-color: ${theme.colors.dark};
+background-color: ${theme.colors.primary};
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 padding: 2rem;
@@ -29,7 +29,7 @@ export const Content = styled.div`
   }
 
   p {
-    color: ${theme.colors.primary};
+    color: ${theme.colors.dark};
     font-family: 'Sports World', sans-serif;
     font-weight: 400;
     font-size: .9rem;
@@ -45,7 +45,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 0.6rem;
-border-right: 1px solid ${theme.colors.secondary};
+border-right: 1px solid ${theme.colors.dark};
 
 img{
     height: 160px;
@@ -57,7 +57,7 @@ a {
 }
 h2 {
     text-decoration: none;
-    color: ${theme.colors.lightblue};
+    color: ${theme.colors.dark};
     font-family: 'Sports World', sans-serif;
 
    
@@ -103,7 +103,7 @@ p {
     font-family: 'Sports World', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: ${theme.colors.blue};
+    color: ${theme.colors.dark};
 
     
 }
@@ -114,7 +114,7 @@ p {
 
 }
 :hover {
-        color: ${theme.colors.primary};
+        color: ${theme.colors.blue};
         transform: scale(1.01);
         transition: ease-in-out 0.5s;
         text-shadow: 0.01rem 0.02rem 6px ${theme.colors.primary} ;
@@ -127,7 +127,7 @@ display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-border-left: 1px solid ${theme.colors.secondary};
+border-left: 1px solid ${theme.colors.dark};
 
 
 `

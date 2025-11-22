@@ -8,7 +8,7 @@ align-items: center;
 gap: .8rem;
 height: 100%;
 width: 100%;
-background-color: ${theme.colors.dark};
+background-color: ${theme.colors.blue};
 padding: 1rem;
 div {
     display: flex;

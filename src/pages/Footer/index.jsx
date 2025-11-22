@@ -55,7 +55,7 @@ export default function Footer() {
             <InstagramIcon
               style={{
                 fontSize: 30,
-                color: `${theme.colors.primary}`,
+                color: `${theme.colors.blue}`,
                 fontWeight: 'bold'
               }}
               className="icon"
@@ -68,7 +68,7 @@ export default function Footer() {
             <PhoneIcon
               style={{
                 fontSize: 30,
-                color: `${theme.colors.primary}`,
+                color: `${theme.colors.blue}`,
                 fontWeight: 'bold'
               }}
             />
@@ -80,7 +80,7 @@ export default function Footer() {
             <EmailIcon
               style={{
                 fontSize: 30,
-                color: `${theme.colors.primary}`,
+                color: `${theme.colors.blue}`,
                 fontWeight: 'bold'
               }}
             />
@@ -95,7 +95,7 @@ export default function Footer() {
             <YouTubeIcon
               style={{
                 fontSize: 30,
-                color: `${theme.colors.primary}`,
+                color: `${theme.colors.blue}`,
                 fontWeight: 'bold'
               }}
             />

@@ -159,7 +159,7 @@ export const ContentLeft = styled.div`
   justify-content: center;
 
   p {
-    color: ${theme.colors.lighttext};
+    color: ${theme.colors.darktext};
     font-family: 'Poppins';
     font-weight: 400;
     letter-spacing: 1px;
@@ -168,7 +168,7 @@ export const ContentLeft = styled.div`
     width: 500px;
 
     span {
-      color: ${theme.colors.lightblue};
+      color: ${theme.colors.primary};
       font-weight: 700;
     }
   }

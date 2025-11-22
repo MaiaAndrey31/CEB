@@ -4,7 +4,7 @@ import { theme } from "../../styles/theme"
 export const Container = styled.div`
 width: 100vw;
 height: min-content;
-background-color: ${theme.colors.secondary};
+background-color: ${theme.colors.primary};
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -19,18 +19,18 @@ div {
     padding: .4rem 0;
     
 p {
-    font-size: .8rem;
-    color: ${theme.colors.lighttext};
+    font-size: 1rem;
+    color: ${theme.colors.darktext};
     font-family: 'GothamLight';
     
     a {
-        color: ${theme.colors.primary};
+        color: ${theme.colors.blue};
         text-decoration: none; 
 
         
     }
     :hover {
-            color: ${theme.colors.blue};
+            color: ${theme.colors.dark};
             cursor: pointer;
         }
    

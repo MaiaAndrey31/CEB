@@ -61,16 +61,8 @@ Cursando Bacharelado em Teologia e
 Licenciatura em Matemática
 Fundador do Projeto Ensinando Ciência
 Responsável pelo Círculo Sapiencial" />
-<TeamCard picture={Diana} name="Diana Santos" role="Mãe Educadora
-Auxiliar Administrativa
-Responsável pela comunicação e
-suporte do Departamento Peques" />
-<TeamCard picture={Gabriele} name="Gabriele Sene" role="Bereana e estudante
-Auxiliar Administrativa
-Responsável pela comunicação e suporte
-do Departamento Chavales e Peña e
-Departamento Espanhol" />
-<TeamCard picture={Reginaldo} name=" Reginaldo Simões" role="Pai educador, formado em teologia pela Escola Charles Spurgeon, educador do Círculo Jonathan." />
+
+
 <TeamCard picture={GabrieleG} name=" Gabriele Gonçalves" role="Licenciada  em Letras - Português/Literaturas - UFRJ (Universidade Federal do Rio de Janeiro)" />
 
       </Content>
