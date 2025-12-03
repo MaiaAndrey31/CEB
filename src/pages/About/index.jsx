@@ -1,5 +1,5 @@
 import { Container, ContainerLeft, ContainerRight } from './styles'
-import Who from '../../assets/who.png'
+import Who from '../../assets/Whole.png'
 export default function About() {
   return (
     <Container id='who'>

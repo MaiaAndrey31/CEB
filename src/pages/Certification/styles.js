@@ -16,6 +16,9 @@ const pulse = keyframes`
 export const Container = styled.div`
   width: 100%;
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   margin: 0 auto;
   padding: 0;
   background-color:${theme.colors.secondary};
@@ -26,7 +29,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   animation: ${fadeIn} 0.8s ease-out forwards;
   
