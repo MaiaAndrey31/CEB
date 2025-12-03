@@ -24,7 +24,7 @@ p {
     font-family: 'GothamLight';
     
     a {
-        color: ${theme.colors.blue};
+        color: ${theme.colors.darkblue};
         text-decoration: none; 
 
         

@@ -13,20 +13,20 @@ padding: 1rem;
 background-color: ${theme.colors.blue};
 
 h1 {
-    color: ${theme.colors.light};
+    color: ${theme.colors.darkblue};
     font-family: 'Sports World', sans-serif;
     font-size: 3rem;
     font-weight: 400;
 }
 
 h2{
-    color: ${theme.colors.primary};
+    color: ${theme.colors.darkblue};
     font-family: 'Sports World', sans-serif;
     font-size: 2rem;
     font-weight: 400;
 }
 .textCircle {
-    color: ${theme.colors.lighttext};
+    color: ${theme.colors.darktext};
     font-family: 'Poppins';
     font-weight: 800;
     font-size: 1.5rem;
@@ -35,7 +35,7 @@ h2{
 }
 
 p{
-    color: ${theme.colors.lighttext};
+    color: ${theme.colors.darktext};
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 1rem;

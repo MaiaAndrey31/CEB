@@ -21,7 +21,7 @@ export const Container = styled.div`
   align-items:center;
   margin: 0 auto;
   padding: 0;
-  background-color:${theme.colors.secondary};
+  background-color:${theme.colors.blue};
   overflow-x: hidden;
 `;
 
@@ -100,7 +100,7 @@ export const Section = styled.section`
   
   h2 {
     font-size: clamp(2rem, 4vw, 2.8rem);
-    color: ${theme.colors.blue};
+    color: ${theme.colors.darkblue};
     margin: 0 0 2rem 0;
     position: relative;
     padding-bottom: 1rem;
@@ -118,7 +118,7 @@ export const Section = styled.section`
   }
      h3 {
     font-size: clamp(2rem, 4vw, 2.8rem);
-    color: ${theme.colors.blue};
+    color: ${theme.colors.darkblue};
     margin: 0 0 2rem 0;
     position: relative;
     padding-bottom: 1rem;

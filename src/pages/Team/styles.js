@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { theme } from "../../styles/theme"
 
 export const Container = styled.div`
-background-color: ${theme.colors.blue};
+background-color: ${theme.colors.dar};
 height: 100%;
 width: 100vw;
 display: flex;
@@ -13,7 +13,7 @@ h1 {
     font-family: 'Sports World';
     font-weight: 400;
     font-size: 3rem;
-    color: ${theme.colors.light};
+    color: ${theme.colors.darkblue};
     padding: 1.8rem;
 }
 

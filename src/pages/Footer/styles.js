@@ -114,7 +114,7 @@ p {
 
 }
 :hover {
-        color: ${theme.colors.blue};
+        color: ${theme.colors.darkblue};
         transform: scale(1.01);
         transition: ease-in-out 0.5s;
         text-shadow: 0.01rem 0.02rem 6px ${theme.colors.primary} ;

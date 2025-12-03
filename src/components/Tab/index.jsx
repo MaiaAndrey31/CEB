@@ -49,7 +49,7 @@ export default function BasicTabs() {
         flexDirection: 'column',
         alignItems: 'center'
       }}
-      style={{ backgroundColor: '#4C9DA0' }}
+      style={{ backgroundColor: '#55dde2ff' }}
     >
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs 
@@ -63,7 +63,7 @@ export default function BasicTabs() {
             {...a11yProps(0)}
             style={{
               fontFamily: 'Sports World', fontWeight: 400,
-              color: '#F7DE58',
+              color: '#616161ff',
               fontSize: 14
             }}
           />
@@ -72,7 +72,7 @@ export default function BasicTabs() {
             {...a11yProps(1)}
             style={{
               fontFamily: 'Sports World', fontWeight: 400,
-              color: '#F7DE58',
+              color: '#616161ff',
               fontSize: 14
             }}
           />
@@ -81,7 +81,7 @@ export default function BasicTabs() {
             {...a11yProps(2)}
             style={{
               fontFamily: 'Sports World', fontWeight: 400,
-              color: '#F7DE58',
+              color: '#616161ff',
               fontSize: 14
             }}
           />
@@ -90,7 +90,7 @@ export default function BasicTabs() {
             {...a11yProps(3)}
             style={{
               fontFamily: 'Sports World', fontWeight: 400,
-              color: '#F7DE58',
+              color: '#616161ff',
               fontSize: 14
             }}
           />
@@ -102,7 +102,7 @@ export default function BasicTabs() {
         style={{
           fontFamily: 'Poppins',
           fontWeight: 600,
-          color: '#F7F7F7',
+          color: '#616161ff',
           maxWidth: '90%'
         }}
       >
@@ -123,7 +123,7 @@ export default function BasicTabs() {
         style={{
           fontFamily: 'Poppins',
           fontWeight: 600,
-          color: '#F7F7F7',
+          color: '#616161ff',
           maxWidth: '90%'
         }}
       >
@@ -144,11 +144,11 @@ export default function BasicTabs() {
         style={{
           fontFamily: 'Poppins',
           fontWeight: 600,
-          color: '#F7F7F7',
+          color: '#616161ff',
           maxWidth: '90%'
         }}
       >
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#000' }}>
           FASE 1
         </span>
         <br />
@@ -157,7 +157,7 @@ export default function BasicTabs() {
         POVOS ANTIGOS - PARTE 1, LOCALIZAÇÃO GEOGRÁFICA, ASPECTOS FÍSICOS E
         CULTURAIS
         <br /><br />
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#000' }}>
           FASE 2
         </span>
         <br />
@@ -173,11 +173,11 @@ export default function BasicTabs() {
         style={{
           fontFamily: 'Poppins',
           fontWeight: 600,
-          color: '#F7F7F7',
+          color: '#616161ff',
           maxWidth: '90%'
         }}
       >
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#000' }}>
           FASE 1
         </span>
         <br />
@@ -186,7 +186,7 @@ export default function BasicTabs() {
         ORGANIZAÇÃO FINANCEIRA, CONCEITO DE ORGANIZAÇÃO, A LÓGICA DA
         ORGANIZAÇÃO, DICAS PRÁTICAS.
         <br /><br />
-        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#F7DE58' }}>
+        <span style={{ fontFamily: 'Sports World', fontWeight: 400, color: '#000' }}>
           FASE 2
         </span>
         <br />

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {theme} from '../../styles/theme'
+import { theme } from '../../styles/theme'
 
 export const Container = styled.div`
 width: 100%;
@@ -14,14 +14,14 @@ h1{
    font-family: 'Sports World', sans-serif;
    font-weight: 400;
     font-size: 3.2rem;
-    color: ${theme.colors.lighttext};
+    color: ${theme.colors.darktext};
     padding-top: 1rem;
 
 }
 .intro{
   font-family: 'Poppins';
   font-size: 1.2rem;
-  color: ${theme.colors.light};
+  color: ${theme.colors.dark};
   width: 90%;
   padding: 1rem;
 }
@@ -72,14 +72,14 @@ div {
 h2{
    font-family: 'Sports World', sans-serif;
     font-size: 2.4rem;
-    color: ${theme.colors.light};
+    color: ${theme.colors.darkblue};
 }
 
 h3 {
     font-size: 1.5rem;
     font-family: 'Poppins';
     font-weight: 700;
-    color: ${theme.colors.light};
+    color: ${theme.colors.dark};
     max-width: 80%;
     padding: 1rem;
 

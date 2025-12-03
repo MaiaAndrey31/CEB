@@ -30,7 +30,7 @@ img {
 
 h6 {
     font-size: 1.4rem;
-    color: ${theme.colors.light};
+    color: ${theme.colors.darkblue};
     
     padding-bottom: 10px;
     font-family: 'Poppins';

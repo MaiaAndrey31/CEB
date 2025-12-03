@@ -30,7 +30,7 @@ export function HeroSection() {
         <ContainerRight>
           <ContactContainer>
             <a href="https://www.instagram.com/cebereia/" target="_blank">
-              <InstagramIcon style={{ color: theme.colors.blue }} /> INSTAGRAM
+              <InstagramIcon style={{ color: theme.colors.darkblue }} /> INSTAGRAM
             </a>
           </ContactContainer>
           <ContactContainer>
@@ -38,7 +38,7 @@ export function HeroSection() {
               href="https://www.youtube.com/@CLUBEEDUCACIONALBEREIA"
               target="_blank"
             >
-              <YouTubeIcon style={{ color: theme.colors.blue }} />
+              <YouTubeIcon style={{ color: theme.colors.darkblue }} />
               YOUTUBE
             </a>
           </ContactContainer>
@@ -47,13 +47,13 @@ export function HeroSection() {
               href="https://blog.clubeeducacionalbereia.com"
               target="_blank"
             >
-              <FeedIcon style={{ color: theme.colors.blue }} />
+              <FeedIcon style={{ color: theme.colors.darkblue }} />
               BLOG
             </a>
           </ContactContainer>
           <ContactContainer>
             <a href="https://wa.me/+555180881976" target="_blank">
-              <WhatsAppIcon style={{ color: theme.colors.blue }} />
+              <WhatsAppIcon style={{ color: theme.colors.darkblue }} />
               WHATSAPP
             </a>
           </ContactContainer>

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { theme } from '../../styles/theme'
 export const Container = styled.div`
-  background-color: ${theme.colors.secondary};
+  background-color: ${theme.colors.blue};
   min-height: 100%;
   width: 100vw;
 `
@@ -101,7 +101,7 @@ export const Hero = styled.div`
   justify-content: center;
 
   h1 {
-    color: ${theme.colors.blue};
+    color: ${theme.colors.darkblue};
    font-family: 'Sports World', sans-serif;
    font-weight: 400;
     font-size: 2.2rem;
@@ -168,7 +168,7 @@ export const ContentLeft = styled.div`
     width: 500px;
 
     span {
-      color: ${theme.colors.primary};
+      color: ${theme.colors.darkblue};
       font-weight: 700;
     }
   }

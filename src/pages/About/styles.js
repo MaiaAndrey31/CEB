@@ -27,7 +27,7 @@ div {
 }
 
 h1{
-    color: ${theme.colors.primary};
+    color: ${theme.colors.dark};
     font-family: 'Sports World', sans-serif;
     font-weight: 400;
     font-size: 3rem;
@@ -46,12 +46,12 @@ p {
     font-size: 1.2rem;
     font-family: 'Poppins';
     font-weight: 600;
-    color: ${theme.colors.light};
+    color: ${theme.colors.darktext};
     text-align: center;
     padding: .6rem;
 }
 span {
-    color: ${theme.colors.primary};
+    color: ${theme.colors.darkblue};
 }
 
 @media (max-width: 768px) {
