@@ -52,7 +52,7 @@ export function HeroSection() {
             </a>
           </ContactContainer>
           <ContactContainer>
-            <a href="https://wa.me/+5551999606156" target="_blank">
+            <a href="https://wa.me/+555180881976" target="_blank">
               <WhatsAppIcon style={{ color: theme.colors.blue }} />
               WHATSAPP
             </a>

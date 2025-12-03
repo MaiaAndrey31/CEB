@@ -64,7 +64,7 @@ export default function Footer() {
           </a>
         </Content>
         <Content>
-          <a href="https://wa.me/+5551999606156" target="_blank">
+          <a href="https://wa.me/+555180881976" target="_blank">
             <PhoneIcon
               style={{
                 fontSize: 30,
