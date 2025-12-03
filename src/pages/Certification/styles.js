@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { theme } from "../../styles/theme";
 
 // Animações
 const fadeIn = keyframes`
@@ -8,7 +9,7 @@ const fadeIn = keyframes`
 
 const pulse = keyframes`
   0% { transform: scale(1); }
-  50% { transform: scale(1.02); }
+  50% { transform: scale(1.05); }
   100% { transform: scale(1); }
 `;
 
@@ -16,8 +17,8 @@ export const Container = styled.div`
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem 1rem;
-  background-color: #0254a5ff;
+  padding: 0;
+  background-color:${theme.colors.secondary};
   overflow-x: hidden;
 `;
 
@@ -82,7 +83,7 @@ export const HeroSection = styled.section`
 export const Section = styled.section`
   margin: 1.5rem 0;
   padding: 2.5rem;
-  background: rgba(54, 54, 54, 0.9);
+  background: ${theme.colors.light};
   border-radius: 16px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
@@ -96,7 +97,7 @@ export const Section = styled.section`
   
   h2 {
     font-size: clamp(2rem, 4vw, 2.8rem);
-    color: #ffffffff;
+    color: ${theme.colors.blue};
     margin: 0 0 2rem 0;
     position: relative;
     padding-bottom: 1rem;
@@ -114,7 +115,7 @@ export const Section = styled.section`
   }
      h3 {
     font-size: clamp(2rem, 4vw, 2.8rem);
-    color: #ffffffff;
+    color: ${theme.colors.blue};
     margin: 0 0 2rem 0;
     position: relative;
     padding-bottom: 1rem;
@@ -133,7 +134,7 @@ export const Section = styled.section`
   
   p {
     font-size: clamp(1.1rem, 1.5vw, 1.6rem);
-    color: rgba(255, 255, 255, 0.9);
+    color: ${theme.colors.darktext};
     line-height: 1.7;
     margin-bottom: 1.5rem;
   }
@@ -170,12 +171,12 @@ export const Grid = styled.div`
 `;
 
 export const Card = styled.div`
-  background: rgba(253, 106, 106, 0.5);
+  background: rgba(4, 1, 204, 0.5);
   padding: 2rem 1.8rem;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(34, 250, 239, 0.6);
   backdrop-filter: blur(10px);
   min-height: 180px;
   display: flex;
@@ -188,12 +189,32 @@ export const Card = styled.div`
   &:hover {
     transform: translateY(-5px) scale(1.02);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-    background: rgba(250, 84, 84, 0.6);
+    background: rgba(84, 123, 250, 0.69);
   }
   
   h3 {
     font-size: clamp(1.4rem, 1.8vw, 1.8rem);
-    color: #fff;
+    color: ${theme.colors.lightblue};
+    margin: 0 0 1rem 0;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.8rem;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 3px;
+ background: linear-gradient(90deg, #ff0c0cff, #0077ffff);
+ ]      border-radius: 2px;
+    }
+  }
+
+  h4 {
+    font-size: clamp(1.4rem, 1.8vw, 1.8rem);
+    color: ${theme.colors.lightblue};
     margin: 0 0 1rem 0;
     font-weight: 600;
     position: relative;
@@ -213,7 +234,7 @@ export const Card = styled.div`
   
   p {
     font-size: clamp(1rem, 1.2vw, 1.2rem);
-    color: rgba(255, 255, 255, 0.9);
+    color: ${theme.colors.darktext};
     line-height: 1.6;
     margin: 0;
   }
@@ -246,7 +267,7 @@ export const PriceCard = styled(Card)`
   
   .price {
     font-size: clamp(2.2rem, 3vw, 2.8rem);
-    color: #2ecc71;
+    color: #1e7743ff;
     font-weight: 700;
     margin: 1rem 0 0.5rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -254,17 +275,20 @@ export const PriceCard = styled(Card)`
   }
   
   .period {
-    color: #bdf6faff;
+    color: #016269ff;
     font-size: 1rem;
     margin-bottom: 1rem;
     display: block;
   }
   
   p {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(99, 98, 98, 0.9);
     font-size: 1.1rem;
     margin: 0.5rem 0 0;
   }
+    h3{
+    color: #1e7743ff;
+    }
   
   @media (max-width: 768px) {
     .price {
@@ -287,7 +311,7 @@ export const List = styled.ul`
   li {
     padding: 0.8rem 0 0.8rem 2rem;
     position: relative;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(124, 124, 124, 0.9);
     font-size: 1.1rem;
     line-height: 1.6;
     transition: all 0.3s ease;
@@ -406,7 +430,7 @@ font-size: 1.5rem;
 
 export const Note = styled.p`
 font-size: 0.95rem;
-color: rgba(255, 255, 255, 0.7);
+color: rgba(110, 110, 110, 0.7);
 font-style: italic;
 margin: 1.5rem 0 0;
 text-align: center;
