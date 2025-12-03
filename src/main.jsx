@@ -28,8 +28,9 @@ createRoot(document.getElementById('root')).render(
     <Pillars />
     <Circles />
     <OurServices />
-    <Certification />
     <Team />
+    <Certification />
+    
     <Footer />
     <Rights />
   </StrictMode>

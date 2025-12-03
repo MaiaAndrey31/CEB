@@ -150,7 +150,7 @@ export default function Certification() {
                 </Section>
 
                 <div style={{ textAlign: 'center', margin: '3rem 0', justifyContent: 'center' }}>
-                    <CtaButton href="https://wa.me/+34634386339"   >
+                    <CtaButton href="https://wa.me/+34634386339"  target="blank" >
                        <WhatsApp 
                        style={{
                                        fontSize: 70,
